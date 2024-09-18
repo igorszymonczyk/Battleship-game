@@ -15,7 +15,7 @@ public class Player {
     }
 
     public void addShip(Ship ship, int x, int y, boolean horizontal) {
-        ships.add(ship);  // Dodaj statek do listy
+        ships.add(ship);
         System.out.println("Statek został dodany.");
     }
 
